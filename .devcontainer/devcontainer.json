@@ -24,6 +24,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "containerEnv": {
+    "AWS_REGION_ID": "us-east-1",
+    "AWS_USER_POOL_ID": "us-east-1_rMfVLSC0U",
+    "AWS_USER_POOL_WEB_CLIENT_ID": "imfk397d4gjdc24speb0nisou"
+  },
+
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
@@ -34,6 +40,7 @@
   "remoteUser": "node",
   "features": {
     "git": "os-provided",
-    "github-cli": "latest"
+    "github-cli": "latest",
+    "aws-cli": "latest"
   }
 }
